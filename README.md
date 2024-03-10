@@ -1,3 +1,39 @@
+## Description
+
+An API for controlling a carrier's orders
+
+## Installation
+
+```bash
+$ pnpm install
+```
+
+## Running the app
+
+```bash
+# development
+$ pnpm run start
+
+# watch mode
+$ pnpm run start:dev
+
+# production mode
+$ pnpm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ pnpm run test
+
+# e2e tests
+$ pnpm run test:e2e
+
+# test coverage
+$ pnpm run test:cov
+```
+
 # Application Rules
 
 - [ ] The application must have two types of users, delivery person and/or admin.
